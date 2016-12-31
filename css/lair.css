@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
@@ -38,7 +39,7 @@ body {
 }
 
 #main-bgi {
-  background-image: url(BGI/draconis_BGI001.png);
+  background-image: url(BGI/draconis_BGI.png);
   // background-position: 50%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -63,8 +64,9 @@ body {
   letter-spacing: 1.6pt;
 }
 .paragraph-font {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.75pt;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.6pt;
+  line-height: 19pt;
   margin-top: 20pt;
   padding: 14px 20px;
   color: rgb(179, 207, 255);
@@ -125,6 +127,11 @@ p.paragraph-font {
   display: block;
   margin: 0 auto;
 }
+
+/*div#se-row {
+  color: white;
+  background-color: rgba(0, 47, 117, 0.8);
+}*/
 
 div#programming-skills {
   margin: 0;

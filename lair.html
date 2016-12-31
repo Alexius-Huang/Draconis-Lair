@@ -2,14 +2,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Draconis Lair</title>
-  <link rel="stylesheet" href="./css/lairBG.css">
-  <link rel="stylesheet" href="./css/lair.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- TimelineJS CSS CDN -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.knightlab.com/libs/timeline/latest/css/timeline.css">
+  <!-- TimelineJS CDN -->
+  <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
+  <!-- Create Timeline Story JS -->
+  <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+
+  <!-- Self Defined CSS -->
+  <link rel="stylesheet" href="./css/lairBG.css">
+  <link rel="stylesheet" href="./css/lair.css">
 
   <!-- Self Defined Script -->
   <script src="./js/circularSkill.js"></script>
@@ -52,23 +61,39 @@
   </div>
  -->
    <div id="navbar-section" class="row">
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element current-page">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element current-page">
       <a href="#">Home</a>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element">
       <a href="#">Resumé</a>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element">
       <a href="#">Portfolio</a>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element">
       <a href="#">Gallery</a>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element">
       <a href="#">Blog</a>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center navbar-element">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center navbar-element">
       <a href="#">Contact Me</a>
+    </div>
+  </div>
+
+
+  <div style="margin-top: 30pt;"></div>
+
+  <!-- <div id="checkpoint-2"></div> -->
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p id="summery-header" class="text-center royal-font neon-text" style="font-size: 350%;">Summery</p>
+      <div id="summery-section" class="card timeline">
+        <div id="summery-timeline">
+        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OX-wNJrp7sW8tmnJ7SCABqMMXimveOu2639Pk8ZnebQ&font=Default&lang=en&initial_zoom=2&height=750' width='100%' height='750' frameborder='0'></iframe>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -76,8 +101,10 @@
 
   <div id="checkpoint-1"></div>
 
+  <p class="text-center neon-text royal-font" style="font-size: 350%;">About The Master of Lair</p>
   <div class="row">
     <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+
       <div class="row" style="color: white; background-color: transparent;">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div id="se-section" class="card">
@@ -139,13 +166,8 @@
 
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p id="ps-header" class="text-center royal-font neon-text" style="font-size: 350%;">Programming Skills</p>
       <div id="programming-skills-section" class="card">
-        <div id="ps-icon-container" class="icon-container">
-          <!-- <img height="200" id="wn-icon" src="./images/software_engineer_icon3.png" alt="ICON1" /> -->
-        </div>
-        <div class="paragraph-container">
-          <h2 id="ps-header" class="text-center royal-font neon-text">Programming Skills</h2>
-        </div>
         <div id="programming-skills">
           <span class="programming-skill-item">
             <img id="skill-1" src="" alt="image-1" />
@@ -174,15 +196,12 @@
           </span>
         </div>
       </div>
-
-<!--       <div class="row" style="color: white; background-color: transparent;">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          
-        </div>
-      </div>
- -->
     </div>
   </div>
+
+  <div style="margin-top: 30pt;"></div>
+
+  <div id="checkpoint-3"></div>
 
 <!--         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div id="art-design-skills-section" class="card">
@@ -199,7 +218,7 @@
           </div>
         </div>
  -->
-  <div id="checkpoint-3"></div>
+  <div id="checkpoint-4"></div>
 
 <!--   <div class="row">
     <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">

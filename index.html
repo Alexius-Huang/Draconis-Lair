@@ -119,7 +119,7 @@
     var adjustMarginOfTimeDigits = function() {
       var nodes = document.getElementsByClassName('time-digits');
       for (var i = 0; i < nodes.length ; i++) {
-        var margin = screen.width * 4 / 144;
+        var margin = screen.width / 72;
         nodes[i].style['margin'] = '0 ' + margin + 'px';
       }
     }
@@ -276,11 +276,11 @@
       ctx.fillRect(0, 0, 500, 500);
       //Year
       ctx.beginPath();
-      ctx.arc(250, 250, 210 + sin(30, count_1), degToRad(270), degToRad((360 * daysFromStart / daysOfYear(year))-90));
+      ctx.arc(250, 250, 210 + sin(30, count_1), degToRad(270), degToRad((360 * daysFromStart / (daysOfYear(year) + 1))-90));
       ctx.stroke();
       //Date
       ctx.beginPath();
-      ctx.arc(250, 250, 175 + sin(20, count_2), degToRad(270), degToRad((360 * day / daysInMonth(month, year))-90));
+      ctx.arc(250, 250, 175 + sin(20, count_2), degToRad(270), degToRad((360 * (day + hrs / 24 - 1) / daysInMonth(month, year))-90));
       ctx.stroke();
       //Hours
       ctx.beginPath();

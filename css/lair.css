@@ -15,6 +15,8 @@ html, body{
 }
 body {
   background-color: #0050a6 !important;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 #navbar-section {
   background-color: black; /* #0050a6;*/

@@ -102,6 +102,22 @@ $(document).ready(function() {
     var count = 0;
     for (var skill of mainSkills) {
       count++;
+
+      /* Create Elements in order to append the canvas to image content */
+      var spanElement = document.createElement('span');
+      spanElement.className += "programming-skill-item";
+      var imgElement  = document.createElement('img');
+      imgElement.setAttribute('id',  'skill-' + count);
+      imgElement.setAttribute('src', '');
+      imgElement.setAttribute('alt', 'image-' + count);
+      var divElement  = document.createElement('div');
+      divElement.setAttribute('id', 'skill-' + count + '-child');
+      divElement.className += 'row';
+      
+      spanElement.appendChild(imgElement);
+      spanElement.appendChild(divElement);
+      document.getElementById('programming-skills').appendChild(spanElement);
+
       var detail = skillDetails[skill];
       var canvas = document.createElement('canvas');
       canvas.width = 250;

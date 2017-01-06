@@ -58,6 +58,25 @@ body {
   background-color: transparent;
 }
 
+.gap-100 {
+  margin: 100pt;
+}
+.gap-50 {
+  margin: 50pt;
+}
+.gap-30 {
+  margin: 30pt;
+}
+.gap-20 {
+  margin: 20pt;
+}
+.gap-10 {
+  margin: 10pt;
+}
+.text-underline {
+  text-decoration: underline;
+}
+
 /* Other feature */
 .neon-text {
   -webkit-box-sizing: content-box;

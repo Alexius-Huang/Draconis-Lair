@@ -12,16 +12,33 @@ h2.header {
   background-color: rgb(0, 47, 117);
   color: white;
 }
-
 img#avatar {
   display: block;
 }
-div#info-section p {
+div#info-section {
+  border-bottom: 3px solid white;
+  margin-bottom: 30pt;
+}
+div#info-container {
+  overflow-y: scroll;
+}
+div#info-section > div#info-container > p {
   padding: 7pt 10pt;
   margin: 0;
-  margin-bottom: 30pt;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.85pt;
+}
+div#info-section > div#info-container > h4 {
+  padding: 10pt 10pt 3pt 0pt;
+  margin: 0;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  border-bottom: 1px solid white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.85pt;
+}
+div#info-section > div#info-container > h4:first-child {
+  padding-top: 15pt;
 }
 
 div#about-me-paragraph {
@@ -36,17 +53,24 @@ div#about-me-paragraph-container {
   padding-top: 0;
   padding-bottom: 3pt;
 }
-div#about-me-paragraph-container h2,
-div#about-me-paragraph-container h4 {
+div#about-me-paragraph-container > h2,
+div#about-me-paragraph-container > h4 {
   margin-left: -15pt;
   margin-right: -15pt;
   margin-top: 0;
   padding: 10pt 15pt;
 }
-div#about-me-paragraph-container h2 {
+div#about-me-paragraph-container > h2 {
   margin-bottom: 0;
   padding-top: 20pt;
 }
-div#about-me-paragraph-container h4 {
-  padding-bottom: 20pt;
+div#about-me-paragraph-container > h4 {
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 1px solid white;
+}
+div#about-me-paragraph-container > p {
+  padding-top: 5pt;
+  letter-spacing: 1pt;
+  line-height: 20pt;
 }

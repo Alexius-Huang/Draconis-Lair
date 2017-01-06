@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- jQuery Plugin - FitTextJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -20,10 +22,11 @@
 
   <!-- Self Defined CSS -->
   <link rel="stylesheet" href="./css/general.css">
-  <link rel="stylesheet" href="./css/lair.css">
-
+  <link rel="stylesheet" href="./css/resume.css">
+  
   <!-- Self Defined Script -->
   <script src="./js/general.js"></script>
+  <script src="./js/resume.js"></script>
 
 </head>
 <body>
@@ -61,11 +64,36 @@
   </div>
 
   <div class="row">
-    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-12">
-      
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
+      <h2 class="text-left header">About Me</h2>
     </div>
   </div>
 
+  <div class="row" id="about-me-section">
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
+      <div class="row" style="border-top: 3px solid white;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="avatar-section" style="padding: 0;">
+          <img src="./images/avatar.jpg" alt="My Avatar" id="avatar" />
+          <div id="info-section">
+            <p class="deeper-bg">
+              Born in 1996.06.14<br/>
+              Live in Taipei, Taiwan<br/>
+              destinydragon85614@gmail.com<br/>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 darker-bg" id="about-me-paragraph">
+          <div id="about-me-paragraph-container">
+            <h2 class="deeper-bg">I am Jun-Xin Huang</h2>
+            <h4 class="deeper-bg">Web Developer, Artist, Designer and in love with things related to Dragons</h4>
+            <p>Under construction ...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin: 100px;"></div>
 
 </body>
 </html>

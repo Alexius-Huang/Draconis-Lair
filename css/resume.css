@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:600');
+
+h2.header {
+  color: white;
+  font-family: 'Oswald', sans-serif; 
+}
+.darker-bg {
+  background-color: #004699;
+  color: white
+}
+.deeper-bg {
+  background-color: rgb(0, 47, 117);
+  color: white;
+}
+
+img#avatar {
+  display: block;
+}
+div#info-section p {
+  padding: 7pt 10pt;
+  margin: 0;
+  margin-bottom: 30pt;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.85pt;
+}
+
+div#about-me-paragraph {
+  color: white;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.9pt;
+}
+div#about-me-paragraph-container {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 0;
+  padding-bottom: 3pt;
+}
+div#about-me-paragraph-container h2,
+div#about-me-paragraph-container h4 {
+  margin-left: -15pt;
+  margin-right: -15pt;
+  margin-top: 0;
+  padding: 10pt 15pt;
+}
+div#about-me-paragraph-container h2 {
+  margin-bottom: 0;
+  padding-top: 20pt;
+}
+div#about-me-paragraph-container h4 {
+  padding-bottom: 20pt;
+}

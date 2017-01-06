@@ -1,33 +1,4 @@
 .hideme { display: none; }
-.header-font {
-  font-family: 'Marcellus SC', serif;
-  color: white !important;
-}
-.royal-font {
-  font-family: 'UnifrakturCook', cursive;
-  letter-spacing: 1.6pt;
-}
-.paragraph-font {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 0.6pt;
-  line-height: 19pt;
-  margin-top: 20pt;
-  padding: 14px 20px;
-  color: rgb(179, 207, 255);
-  background-color: #004699;//#00296f;
-}
-p.paragraph-font {
-  font-size: 12pt;
-}
-.paragraph-container {
-  margin: 3pt 5pt;
-  text-align: justify;
-  text-justify: inter-ideograph;
-}
-.paragraph-container h2 {
-  font-size: 25pt;
-}
-
 .jumbotron {
   padding: 0 !important;
   margin: 0 !important;

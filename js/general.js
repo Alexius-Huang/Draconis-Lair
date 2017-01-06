@@ -11,18 +11,64 @@ ga('send', 'pageview');
 $(document).ready(function() {
 
   /* Adjust background */
-  $('#inner-bgi').css({
-    backgroundSize: screen.width ,
-    backgroundPostion: 'center',
-    height: $('#main-bgi').width() * 5 / 8,
-  });
-  $('#header-container').css({
-    margin: '0 auto',
-    height: '100%',
-    position: 'absolute',
-    top: $('#main-bgi').height() / 3,
-    left: 0,
-    right: 0,
-  });
-  
+  adjustBackground();
+  $(window).resize(function() { adjustBackground(); })
+
 });
+
+function adjustBackground() {
+  if (screen.width <= 480) {
+    /* Mobile Version */
+    $('h4').css({
+      lineHeight: '20pt'
+    })
+    $('p').css({
+      letterSpacing: '1pt',
+      fontSize: '130%',
+      lineHeight: '22pt'
+    });
+    
+
+    /* Override */
+    $('#main-bgi').css({
+      backgroundImage: 'url(./css/BGI/mobile_BGI.png)'
+    });
+    $('#inner-bgi').css({
+      backgroundSize: '100% auto' ,
+      backgroundPostion: 'center',
+      height: $('#main-bgi').width() * 16 / 9,
+    });
+    $('#header-container').css({
+      margin: '0 auto',
+      height: '100%',
+      position: 'absolute',
+      top: $('#main-bgi').height() / 1.8,
+      left: 0,
+      right: 0,
+    });
+    $('#header-container h1').css({
+      fontSize: '20pt'
+    });
+    $('#header-container h3').css({
+      fontSize: '15pt'
+    });
+
+  } else {
+    $('#main-bgi').css({
+      backgroundImage: 'url(./css/BGI/draconis_BGI.png)'
+    });
+    $('#inner-bgi').css({
+      backgroundSize: '100% auto' ,
+      backgroundPostion: 'center',
+      height: $('#main-bgi').width() * 5 / 8,
+    });
+    $('#header-container').css({
+      margin: '0 auto',
+      height: '100%',
+      position: 'absolute',
+      top: $('#main-bgi').height() / 2,
+      left: 0,
+      right: 0,
+    });
+  }
+}

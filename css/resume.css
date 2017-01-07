@@ -2,9 +2,10 @@
 
 html p,
 body p {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 1pt;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.8pt;
   line-height: 20pt;
+  font-size: 120%;
 }
 
 div#info-section,
@@ -39,20 +40,20 @@ div#intern-section h4,
 div#project-section h4,
 div#competition-section h4,
 div#skill-section h4 {
-  padding-top: 5pt;
-  padding-bottom: 5pt;
-  font-family: 'Oswald', sans-serif;
+  padding: 5pt 10pt 5pt 15pt;
+  font-family: 'PT Sans', sans-serif;
   letter-spacing: 0.85pt;
 }
 div#education-section p,
 div#intern-section p,
 div#project-section p,
 div#competition-section p, 
-div#skill-section p { padding-top: 5pt; }
+div#skill-section p { padding: 5pt 10pt 5pt 15pt; }
 
 h2.header {
   color: white;
-  font-family: 'Oswald', sans-serif; 
+  font-family: 'Oswald', sans-serif;
+  padding-left: 15pt;
 }
 .darker-bg {
   background-color: #004699;
@@ -69,6 +70,7 @@ div#info-section {
   border-bottom: 3px solid white;
 }
 div#info-container {
+  padding: 10pt 15pt;
   overflow-y: scroll;
 }
 div#info-section > div#info-container > p {
@@ -106,7 +108,7 @@ div#about-me-paragraph-container > h4 {
   margin-left: -15pt;
   margin-right: -15pt;
   margin-top: 0;
-  padding: 10pt 15pt;
+  padding: 10pt 15pt 10pt 25pt;
 }
 div#about-me-paragraph-container > h2 {
   margin-bottom: 0;

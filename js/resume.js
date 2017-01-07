@@ -40,9 +40,6 @@ function adjustAboutMeSectionComponentHeight() {
     });
 
     var adjustParagraphSectionHeight = $('#about-me-paragraph-container').outerHeight(true);
-    // $('#about-me-paragraph-container').children().each(function() {
-    //   adjustParagraphSectionHeight += $(this).outerHeight(true);
-    // });
     $('#about-me-paragraph').css({
       height: adjustParagraphSectionHeight,
       marginBottom: '40pt'

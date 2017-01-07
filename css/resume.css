@@ -1,5 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Teko:600');
 
+html p,
+body p {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1pt;
+  line-height: 20pt;
+}
+
+div#info-section,
+div#intern-section,
+div#project-section,
+div#education-section,
+div#competition-section,
+div#skill-section {
+  margin-bottom: 30pt;
+}
+
+div#info-section > div > .row:first-child,
+div#intern-section > div > .row:first-child,
+div#project-section > div > .row:first-child,
+div#education-section > div > .row:first-child,
+div#competition-section > div > .row:first-child,
+div#skill-section > div > .row:first-child {
+  border-top: 3px solid white;
+}
+
+div#info-section > div > .row:last-child,
+div#intern-section > div > .row:last-child,
+div#project-section > div > .row:last-child,
+div#education-section > div > .row:last-child,
+div#competition-section > div > .row:last-child,
+div#skill-section > div > .row:last-child {
+  border-bottom: 1px solid white;
+}
+
+div#education-section h4,
+div#intern-section h4,
+div#project-section h4,
+div#competition-section h4,
+div#skill-section h4 {
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.85pt;
+}
+div#education-section p,
+div#intern-section p,
+div#project-section p,
+div#competition-section p, 
+div#skill-section p { padding-top: 5pt; }
+
 h2.header {
   color: white;
   font-family: 'Oswald', sans-serif; 
@@ -17,7 +67,6 @@ img#avatar {
 }
 div#info-section {
   border-bottom: 3px solid white;
-  margin-bottom: 30pt;
 }
 div#info-container {
   overflow-y: scroll;
@@ -25,7 +74,6 @@ div#info-container {
 div#info-section > div#info-container > p {
   padding: 7pt 10pt;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
   letter-spacing: 0.85pt;
 }
 div#info-section > div#info-container > h4 {
@@ -71,6 +119,6 @@ div#about-me-paragraph-container > h4 {
 }
 div#about-me-paragraph-container > p {
   padding-top: 5pt;
-  letter-spacing: 1pt;
-  line-height: 20pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
 }

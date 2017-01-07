@@ -17,7 +17,7 @@ $(document).ready(function() {
 });
 
 function adjustBackground() {
-  if (screen.width <= 480) {
+  var smallDevice = function() {
     /* Mobile Version */
     $('h4').css({
       lineHeight: '20pt'
@@ -27,7 +27,6 @@ function adjustBackground() {
       fontSize: '130%',
       lineHeight: '22pt'
     });
-    
 
     /* Override */
     $('#main-bgi').css({
@@ -46,11 +45,23 @@ function adjustBackground() {
       left: 0,
       right: 0,
     });
+  }
+
+  if (screen.width <= 480) {
+    smallDevice();
     $('#header-container h1').css({
       fontSize: '20pt'
     });
     $('#header-container h3').css({
       fontSize: '15pt'
+    });
+  } else if (screen.width <= 720) {
+    smallDevice();
+    $('#header-container h1').css({
+      fontSize: '30pt'
+    });
+    $('#header-container h3').css({
+      fontSize: '20pt'
     });
 
   } else {

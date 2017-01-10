@@ -47,8 +47,17 @@ div#skill-section h4 {
 div#education-section p,
 div#intern-section p,
 div#project-section p,
-div#competition-section p, 
-div#skill-section p { padding: 5pt 10pt 5pt 15pt; }
+div#competition-section p { padding: 5pt 10pt 5pt 15pt; }
+div#skill-section p { padding: 5pt 10pt 5pt 0pt;}
+div#skill-section p > small {
+  margin-top: 8pt;
+  padding: 2pt 20pt 2pt 0;
+  padding-left: 20pt;
+  margin-right: -20pt;
+  float: right;
+  text-shadow: 2px 2px 1px rgba(75, 75, 75, 1);
+  border-bottom: 2px solid white;
+}
 
 h2.header {
   color: white;
@@ -118,6 +127,7 @@ div#about-me-paragraph-container > h4 {
   padding-top: 10pt;
   padding-bottom: 10pt;
   border-bottom: 1px solid white;
+  line-height: 25pt;
 }
 div#about-me-paragraph-container > p {
   padding-top: 5pt;

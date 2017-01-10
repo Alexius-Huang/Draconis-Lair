@@ -5,13 +5,13 @@ $(document).ready(function() {
   responsiveAdjust();
   adjustAboutMeSectionComponentHeight();
   preventEmailOverflow();
-  adjustSkillLogos();
+  adjustSkillSection();
   $(window).resize(function() {
     adjustAvatar();
     responsiveAdjust();
     adjustAboutMeSectionComponentHeight();
     preventEmailOverflow();
-    adjustSkillLogos();
+    adjustSkillSection();
   });
 });
 
@@ -67,10 +67,17 @@ function adjustAboutMeSectionComponentHeight() {
   }
 }
 
-function adjustSkillLogos() {
-  $('#skill-section img').each(function(){
-    $(this).parent().css('padding', '3%');
-    $(this).css('max-width', $(this).parent().width());
+function adjustSkillSection() {
+  var images = $('#skill-section img');
+  var paragraphs = $('#skill-section p');
+  images.each(function(){
+    if (screen.width <= 720) {
+      $(this).parent().css('padding', '4%');
+      $(this).css('max-width', $(this).parent().width());
+    } else {
+      $(this).parent().css('padding', '3%');
+      $(this).css('max-width', $(this).parent().width());
+    }
   });
 }
 

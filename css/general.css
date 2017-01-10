@@ -129,6 +129,37 @@ p.paragraph-font {
   font-size: 25pt;
 }
 
+.triangular-angle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 200px;
+  border-color: transparent transparent #007bff transparent;
+}
+
+/* Gradients */
+.gold {
+  background: #fceabb; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #fceabb 0%, #fccd4d 47%, #f8b500 59%, #fbdf93 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #fceabb 0%,#fccd4d 47%,#f8b500 59%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #fceabb 0%,#fccd4d 47%,#f8b500 59%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.silver {
+  background: #b8e1fc; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #b8e1fc 0%, #a9d2f3 10%, #90bff0 37%, #6ba8e5 61%, #a2daf5 83%, #bdf3fd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #b8e1fc 0%,#a9d2f3 10%,#90bff0 37%,#6ba8e5 61%,#a2daf5 83%,#bdf3fd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #b8e1fc 0%,#a9d2f3 10%,#90bff0 37%,#6ba8e5 61%,#a2daf5 83%,#bdf3fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.bronze {
+  background: #f3e2c7; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f3e2c7 0%, #c19e67 41%, #c19e67 41%, #b68d4c 64%, #e9d4b3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f3e2c7 0%,#c19e67 41%,#c19e67 41%,#b68d4c 64%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f3e2c7 0%,#c19e67 41%,#c19e67 41%,#b68d4c 64%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
 @media only screen and (max-width: 980px) {
   #main-bgi {
     background-image: url(../images/draconis_BGI_980.png);

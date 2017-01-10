@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:600');
+
+html p,
+body p {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.8pt;
+  line-height: 20pt;
+  font-size: 120%;
+}
+
+div#info-section,
+div#intern-section,
+div#project-section,
+div#education-section,
+div#competition-section,
+div#skill-section {
+  margin-bottom: 30pt;
+}
+
+div#info-section > div > .row:first-child,
+div#intern-section > div > .row:first-child,
+div#project-section > div > .row:first-child,
+div#education-section > div > .row:first-child,
+div#competition-section > div > .row:first-child,
+div#skill-section > div > .row:first-child {
+  border-top: 3px solid white;
+}
+
+div#info-section > div > .row:last-child,
+div#intern-section > div > .row:last-child,
+div#project-section > div > .row:last-child,
+div#education-section > div > .row:last-child,
+div#competition-section > div > .row:last-child,
+div#skill-section > div > .row:last-child {
+  border-bottom: 1px solid white;
+}
+
+div#education-section h4,
+div#intern-section h4,
+div#project-section h4,
+div#competition-section h4,
+div#skill-section h4 {
+  padding: 5pt 10pt 5pt 15pt;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.85pt;
+}
+div#education-section p,
+div#intern-section p,
+div#project-section p,
+div#competition-section p { padding: 5pt 10pt 5pt 15pt; }
+div#skill-section p { padding: 5pt 10pt 5pt 0pt;}
+div#skill-section p > small {
+  margin-top: 8pt;
+  padding: 2pt 20pt 2pt 0;
+  padding-left: 20pt;
+  margin-right: -20pt;
+  float: right;
+  text-shadow: 2px 2px 1px rgba(75, 75, 75, 1);
+  border-bottom: 2px solid white;
+}
+
+h2.header {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 15pt;
+}
+.darker-bg {
+  background-color: #004699;
+  color: white
+}
+.deeper-bg {
+  background-color: rgb(0, 47, 117);
+  color: white;
+}
+img#avatar {
+  display: block;
+}
+div#info-section {
+  border-bottom: 3px solid white;
+}
+div#info-container {
+  padding: 10pt 15pt;
+  overflow-y: scroll;
+}
+div#info-section > div#info-container > p {
+  padding: 7pt 10pt;
+  margin: 0;
+  letter-spacing: 0.85pt;
+}
+div#info-section > div#info-container > h4 {
+  padding: 10pt 10pt 3pt 0pt;
+  margin: 0;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  border-bottom: 1px solid white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.85pt;
+}
+div#info-section > div#info-container > h4:first-child {
+  padding-top: 15pt;
+}
+
+div#about-me-paragraph {
+  color: white;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.9pt;
+}
+div#about-me-paragraph-container {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 0;
+  padding-bottom: 3pt;
+}
+div#about-me-paragraph-container > h2,
+div#about-me-paragraph-container > h4 {
+  margin-left: -15pt;
+  margin-right: -15pt;
+  margin-top: 0;
+  padding: 10pt 15pt 10pt 25pt;
+}
+div#about-me-paragraph-container > h2 {
+  margin-bottom: 0;
+  padding-top: 20pt;
+}
+div#about-me-paragraph-container > h4 {
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 1px solid white;
+  line-height: 25pt;
+}
+div#about-me-paragraph-container > p {
+  padding-top: 5pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+}

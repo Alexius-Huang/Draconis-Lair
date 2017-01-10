@@ -1,124 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
-@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
-@import url('https://fonts.googleapis.com/css?family=Rakkas');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-// @import url('https://fonts.googleapis.com/css?family=Fanwood+Text:400i');
-// @import url('https://fonts.googleapis.com/css?family=Cambay');
-// @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-
-html, body{
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #0050a6 !important;
-  overflow-x: hidden;
-  max-width: 100%;
-}
-#navbar-section {
-  background-color: black; /* #0050a6;*/
-  color: rgb(228, 246, 255);
-}
-.navbar-element {
-  font-family: 'Marcellus SC', serif;
-  font-size: 125%;
-  padding: 10pt 0;
-}
-.navbar-element a {
-  color: #aaaaaa;
-  text-decoration: none !important;
-  transition: color 0.3s;
-}
-.navbar-element.current-page a {
-  color: #5e7fff !important;
-}
-.navbar-element a:hover {
-  color: #5e7fff;
-  transition: color 0.3s;
-}
-
-#main-bgi {
-  background-image: url(BGI/draconis_BGI.png);
-  // background-position: 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-color: #000010 !important;
-}
-#inner-bgi {
-  background-color: transparent;
-}
 .hideme { display: none; }
-.header-font {
-  font-family: 'Marcellus SC', serif; 
-  // font-family: 'Fredoka One', cursive;
-  // font-family: 'UnifrakturCook', cursive;
-  color: white !important;
-}
-.royal-font {
-  font-family: 'UnifrakturCook', cursive;
-  letter-spacing: 1.6pt;
-}
-.paragraph-font {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 0.6pt;
-  line-height: 19pt;
-  margin-top: 20pt;
-  padding: 14px 20px;
-  color: rgb(179, 207, 255);
-  background-color: #004699;//#00296f;
-}
-p.paragraph-font {
-  font-size: 12pt;
-}
-.paragraph-container {
-  margin: 3pt 5pt;
-  text-align: justify;
-  text-justify: inter-ideograph;
-}
-.paragraph-container h2 {
-  font-size: 25pt;
-}
-.neon-text {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
-  // font: normal normal bold 72px/normal "Atomic Age", Helvetica, sans-serif;
-  // color: rgb(64, 126, 196);
-  color: #b7edff;
-  // text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: 1px 1px 0 rgb(77,162,252) , -1px -1px 0 rgb(77,162,252) , 1px -1px 0 rgb(77,162,252) , -1px 1px 0 rgb(77,162,252) , 4px 4px 8px rgb(44,88,137) , -4px 4px 8px rgb(44,88,137) , 4px -4px 8px rgb(44,88,137) , -4px -4px 8px rgb(44,88,137) ;
-  -webkit-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
-  -moz-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
-  -o-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
-  transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
-}
-.neon-text:hover {
-  text-shadow: 1px 1px 0 rgb(77,162,252) , -1px -1px 0 rgb(77,162,252) , 1px -1px 0 rgb(77,162,252) , -1px 1px 0 rgb(77,162,252) ;
-  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-}
-.row {
-}
 .jumbotron {
   padding: 0 !important;
   margin: 0 !important;
-//  background-color: black !important;
 }
 .card {
-  //background-color: rgba(0, 35, 68, 0.8) !important;
-  //padding: 3pt 0;
   margin: 15pt 0;
 }
 .icon-container {
@@ -129,11 +14,6 @@ p.paragraph-font {
   display: block;
   margin: 0 auto;
 }
-
-/*div#se-row {
-  color: white;
-  background-color: rgba(0, 47, 117, 0.8);
-}*/
 
 div#programming-skills {
   margin: 0;
@@ -155,22 +35,4 @@ div#programming-skills span {
   height:  500px;
   text-align: center;
   margin: 0;
-}
-
-@media only screen and (max-width: 380px) {
-  #main-bgi {
-    background-image: url(../images/draconis_BGI_modile.png);
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  #main-bgi {
-    background-image: url(../images/draconis_BGI_ipad.png);
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  #main-bgi {
-    background-image: url(../images/draconis_BGI_980.png);
-  }
 }

@@ -78,6 +78,15 @@ body {
   text-decoration: underline;
 }
 
+.darker-bg {
+  background-color: #004699;
+  color: white
+}
+.deeper-bg {
+  background-color: rgb(0, 47, 117);
+  color: white;
+}
+
 /* Other feature */
 .neon-text {
   -webkit-box-sizing: content-box;

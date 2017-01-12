@@ -10,6 +10,9 @@ ga('send', 'pageview');
 /* After loaded events */
 $(document).ready(function() {
 
+  /* Make all links target="_blank" */
+  $('a').each(function() { $(this).attr('target', '_blank') });
+
   /* Adjust background */
   adjustBackground();
   $(window).resize(function() { adjustBackground(); })

@@ -1,0 +1,56 @@
+div.portfolio-row {
+  margin-bottom: 5vh;
+  font-family: 'Oswald', sans-serif;
+}
+div.portfolio-row > div {
+  padding: 0;
+}
+div.portfolio-heading {
+  padding: 0;
+  border-top: 3pt solid white;
+  border-bottom: 1pt solid white;
+}
+div.portfolio-header > h1 {
+  display: inline-block;
+  padding: 20pt;
+  margin: 0;
+  text-decoration: underline;
+}
+div.portfolio-tags {
+  padding: 0 20pt 20pt 20pt;
+}
+div.portfolio-tags > span {
+  display: inline-block;
+  background-color: #004699;
+  padding: 5pt 10pt;
+  border-radius: 15pt;
+  margin: 5pt 0 0 7pt;
+  letter-spacing: 0.7pt;
+  word-spacing: 2pt;
+}
+div.portfolio-icon-container {
+  padding: 20pt 20pt 0 20pt
+}
+div.portfolio-icon-container > a {
+  margin: 0 5pt;
+}
+div.portfolio-paragraph {
+  border-bottom: 3px solid white;
+  padding-bottom: 10pt;
+  overflow-y: scroll;
+}
+div.portfolio-paragraph > p {
+  margin-top: 15pt;
+  padding: 10pt 25pt;
+  letter-spacing: 0.7pt;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.8vh;
+  word-spacing: 2pt;
+}
+div.portfolio-paragraph > p > a {
+  color: #ddd;
+  text-decoration: underline;
+}
+div.portfolio-paragraph > p > a:hover {
+  color: white;
+}

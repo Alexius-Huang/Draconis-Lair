@@ -12,6 +12,8 @@ $(document).ready(function() {
 
   /* Make all links target="_blank" */
   $('a').each(function() { $(this).attr('target', '_blank') });
+  /* Except for Navigation bar section */
+  $('#navbar-section a').each(function() { $(this).attr('target', '_self'); });
 
   /* Adjust background */
   adjustBackground();

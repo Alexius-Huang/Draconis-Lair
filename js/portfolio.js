@@ -1,4 +1,4 @@
-var $portfolios = ['2048', 'game-of-life'];
+var $portfolios = ['simple-harmonic-motion', 'game-of-life', '2048'];
 var $platforms  = ['draconis', 'github', 'codepen', 'medium'];
 
 $(document).ready(function() {
@@ -29,7 +29,7 @@ function resizeImgWidth() {
       width: $('#img-container-' + portfolio).width(),
       maxWidth: $('#img-container-' + portfolio).width()
     });
-  });
+  });  
 }
 
 function resizePortfolioSection() {

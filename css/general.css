@@ -138,14 +138,6 @@ p.paragraph-font {
   font-size: 25pt;
 }
 
-.triangular-angle {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 200px 200px;
-  border-color: transparent transparent #007bff transparent;
-}
-
 /* Gradients */
 .gold {
   background: #fceabb; /* Old browsers */

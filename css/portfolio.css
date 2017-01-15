@@ -29,7 +29,7 @@ div.portfolio-tags > span {
   word-spacing: 2pt;
 }
 div.portfolio-icon-container {
-  padding: 20pt 20pt 0 20pt
+  padding: 20pt 20pt 0 20pt;
 }
 div.portfolio-icon-container > a {
   margin: 0 5pt;
@@ -48,9 +48,9 @@ div.portfolio-paragraph > p {
   word-spacing: 2pt;
 }
 div.portfolio-paragraph > p > a {
-  color: #ddd;
+  color: #9ebff7;
   text-decoration: underline;
 }
 div.portfolio-paragraph > p > a:hover {
-  color: white;
+  color: #3e80f0;
 }

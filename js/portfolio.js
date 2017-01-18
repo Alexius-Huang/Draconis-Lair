@@ -1,4 +1,4 @@
-var $portfolios = ['simple-harmonic-motion', 'game-of-life', '2048'];
+var $portfolios = ['tetris', 'simple-harmonic-motion', 'game-of-life', '2048'];
 var $platforms  = ['draconis', 'github', 'codepen', 'medium'];
 
 $(document).ready(function() {

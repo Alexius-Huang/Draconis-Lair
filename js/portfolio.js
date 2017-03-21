@@ -1,5 +1,17 @@
 $(document).ready(function() {
-  var $portfolios = ['visualized-bubble-sort', 'event-horizon', 'simple-torus-knot', 'doppler-effect', 'snake', 'brick-breaker', 'tetris', 'simple-harmonic-motion', 'game-of-life', '2048'];
+  var $portfolios = [
+    'visualized-merge-sort',
+    'visualized-bubble-sort',
+    'event-horizon',
+    'simple-torus-knot',
+    'doppler-effect',
+    'snake',
+    'brick-breaker',
+    'tetris',
+    'simple-harmonic-motion',
+    'game-of-life',
+    '2048'
+  ];
   var $platforms  = ['draconis', 'github', 'codepen', 'medium'];
   resizeImgWidth();
   resizePortfolioSection();

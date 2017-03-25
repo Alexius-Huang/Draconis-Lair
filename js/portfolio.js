@@ -1,5 +1,7 @@
 $(document).ready(function() {
   var $portfolios = [
+    'visualized-quick-sort',
+    'visualized-comb-sort',
     'visualized-merge-sort',
     'visualized-bubble-sort',
     'event-horizon',

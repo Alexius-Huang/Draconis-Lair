@@ -1,5 +1,7 @@
 $(document).ready(function() {
   var $portfolios = [
+    'orbital-image-gallery',
+    'visualized-heap-sort',
     'visualized-quick-sort',
     'visualized-comb-sort',
     'visualized-merge-sort',
